@@ -5,7 +5,7 @@
 
 - 👨‍💻 All of my projects are available at [Portfolio creation process](Portfolio creation process)
 
-- 💬 Ask me about **JavaScript, PHP, C#**
+- 💬 Ask me about **JavaScript, React, React Native, C#**
 
 - 📫 How to reach me **juand0014@hotmail.com**
 
