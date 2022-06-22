@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **juand0014@hotmail.com**
 
-- 📄 Know about my experiences [https://www.canva.com/design/DAEzPCw45W0/rbF4KzxTJl7EkbO1QN_GMA/view?utm_content=DAEzPCw45W0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](Juan David Matos)
+- 📄 Know about my experiences [My experiences](https://www.canva.com/design/DAEzPCw45W0/rbF4KzxTJl7EkbO1QN_GMA/view?utm_content=DAEzPCw45W0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
