@@ -26,4 +26,6 @@
 <p align="left"> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> </p>
 
 ### Progress:
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Juand0014&layout=compact&theme=radical)](https://github.com/Juand0014/github-readme-stats)
+<a href="https://github.com/Juand0014/Juand0014">
+  <img align="center" height="220px" src="https://github-readme-stats.vercel.app/api?username=Juand0014&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=FDFD59&bg_color=2D1650" alt="Juan's GitHub Stats" />
+</a>
