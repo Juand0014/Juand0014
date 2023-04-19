@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Juan David Matos</h1>
 <h3 align="center">A passionate software developer from Dominican Republic, Santo Domingo, DN</h3>
 
-- 🌱 I’m currently learning **ReactJs, NodeJs, Net Core**
+- 🌱 I’m currently learning **ReactJs, NodeJs, NestJs, Docker**
 
 - 👨‍💻 All of my projects are available at [Portfolio creation process](Portfolio creation process)
 
-- 💬 Ask me about **JavaScript, React, React Native, C#**
+- 💬 Ask me about **JavaScript, React, React Native, Docker, AWS**
 
 - 📫 How to reach me **juand0014@hotmail.com**
 
