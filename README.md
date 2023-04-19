@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **juand0014@hotmail.com**
 
-- 📄 Know about my experiences [CV]([https://www.canva.com/design/DAEzPCw45W0/rbF4KzxTJl7EkbO1QN_GMA/view?utm_content=DAEzPCw45W0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](https://www.canva.com/design/DAFGygKpQLw/gSXbvUawNc-0cDj5esgbHA/edit?utm_content=DAFGygKpQLw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton))
+- 📄 Know about my experiences [CV]([https://www.canva.com/design/DAEzPCw45W0/rbF4KzxTJl7EkbO1QN_GMA/view?utm_content=DAEzPCw45W0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink](https://www.canva.com/design/DAFGygKpQLw/gSXbvUawNc-0cDj5esgbHA/edit?utm_content=DAFGygKpQLw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)])
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
