@@ -1,31 +1,154 @@
-<h1 align="center">Hi 👋, I'm Juan David Matos</h1>
-<h3 align="center">A passionate software developer from Dominican Republic, Santo Domingo, DN</h3>
+<!-- Reading the raw markdown? You review PRs properly. Email subject line: raw. -->
 
-- 🌱 I’m currently learning **ReactJs, NodeJs, NestJs, Docker**
+<div align="center">
 
-- 👨‍💻 All of my projects are available at [Portfolio creation process](Portfolio creation process)
+<img src="https://capsule-render.vercel.app/api?type=rect&section=header&color=0E0F0C&height=190&text=JUAN%20DAVID%20MATOS&fontColor=EDE8DA&fontSize=52&fontAlignY=42&desc=Full-stack%20engineer.%20Led%2012.%20Now%20building%20agents%20that%20open%20pull%20requests.&descColor=FF5B1F&descSize=18&descAlignY=66&animation=fadeIn" alt="Juan David Matos. Full-stack engineer. Led 12. Now building agents that open pull requests." width="100%" />
 
-- 💬 Ask me about **JavaScript, React, React Native, Docker, AWS**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=500&color=EDE8DA&background=0E0F0C&width=720&height=130&multiline=true&repeat=false&vCenter=true&lines=%E2%80%BA+role++++full+stack%2C+6%2B+years;%E2%80%BA+stack+++NestJS+%C2%B7+React%2FNext+%C2%B7+.NET+%C2%B7+AWS;%E2%80%BA+now+++++agents%3A+ticket+%E2%86%92+PR+%E2%86%92+board;%E2%80%BA+led+++++up+to+12+engineers" alt="role: full stack, 6+ years. stack: NestJS, React/Next, .NET, AWS. now: agents, ticket to PR to board. led: up to 12 engineers." />
 
-- 📫 How to reach me **juand0014@hotmail.com**
+<br />
 
-- 📄 Know about my experiences [CV](https://publuu.com/flip-book/795142/1756412)
+<a href="mailto:juandmatos0014@gmail.com"><img src="https://img.shields.io/badge/WRITE%20ME-EMAIL-FF5B1F?style=for-the-badge&labelColor=0E0F0C" alt="Email" /></a>
+<a href="https://linkedin.com/in/juan-david-matos-553a73204"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-EDE8DA?style=for-the-badge&labelColor=0E0F0C" alt="LinkedIn" /></a>
+<img src="https://img.shields.io/badge/OPEN%20TO-REMOTE%20ROLES-8CFF7A?style=for-the-badge&labelColor=0E0F0C" alt="Open to remote roles" />
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/juan-david-matos-553a73204" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/juan-david-matos-553a73204/" height="30" width="40" /></a>
-<a href="https://fb.com/JuanDMatos14" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="juan david matos" height="30" width="40" /></a>
-<a href="https://instagram.com/juandmatos_rd" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="juandmatos_rd" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/juand0014" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="juand0014" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/juand0014" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="juand0014" height="30" width="40" /></a>
-<a href="https://discord.gg/#0836" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="#0836" height="30" width="40" /></a>
-</p>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dotnet.microsoft.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-<p align="left"> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> </p>
+<br />
 
-### Progress:
-<a href="https://github.com/Juand0014/Juand0014">
-  <img align="center" height="220px" src="https://github-readme-stats.vercel.app/api?username=Juand0014&show_icons=true&line_height=27&count_private=true&title_color=ffffff&text_color=c9cacc&icon_color=FDFD59&bg_color=2D1650" alt="Juan's GitHub Stats" />
-</a>
+## `01` TASK
+
+> [!TIP]
+> **Open to remote senior full-stack / AI-agent engineering roles.**
+> Santo Domingo, Dominican Republic (UTC-4 all year, no daylight saving). English C1, Spanish native.
+
+I'm a senior full-stack engineer with 6+ years shipping production systems on **NestJS, React / Next.js, .NET and AWS**. I led a team of up to 12 engineers for about 2.5 years, and now I build AI agents that plug into real engineering workflows.
+
+<div align="center">
+
+<a href="mailto:juandmatos0014@gmail.com"><kbd>&nbsp;⏎&nbsp; run: hire Juan&nbsp;</kbd></a>
+
+</div>
+
+<br />
+
+## `02` PLAN
+
+*What I'm building now.* A support agent that works the ticket queue on its own:
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A1B17','primaryTextColor':'#EDE8DA','primaryBorderColor':'#FF5B1F','lineColor':'#FF5B1F','secondaryColor':'#1A1B17','tertiaryColor':'#0E0F0C','fontFamily':'trebuchet ms, verdana, arial, sans-serif'}}}%%
+flowchart LR
+    T(["Support ticket"]) --> A{{"n8n agent<br/>LLM + tools"}}
+    A --> R["Resolves the ticket"]
+    A --> P["Opens a pull request"]
+    A --> B["Updates the project board"]
+    classDef hot fill:#FF5B1F,stroke:#FF5B1F,color:#0E0F0C;
+    class A hot;
+```
+
+And a customer-service agent that answers from real customer data and context instead of guessing:
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A1B17','primaryTextColor':'#EDE8DA','primaryBorderColor':'#FF5B1F','lineColor':'#FF5B1F','secondaryColor':'#1A1B17','tertiaryColor':'#0E0F0C','fontFamily':'trebuchet ms, verdana, arial, sans-serif'}}}%%
+flowchart LR
+    M(["Customer message"]) --> C{{"Customer-service agent"}}
+    D[("Customer data<br/>+ context")] --> C
+    C --> G["Grounded reply"]
+    classDef hot fill:#FF5B1F,stroke:#FF5B1F,color:#0E0F0C;
+    class C hot;
+```
+
+Next on the bench: RAG, MCP and multi-agent orchestration.
+
+<details>
+<summary><b>Ask me about…</b></summary>
+<br />
+
+- **Leading 12 engineers.** Technical direction, code reviews, engineering standards, mentoring, and working closely with Product (about 2.5 years at Solvex Dominicana).
+- **Event-driven microservices on AWS.** Node.js (Nest) on Lambda, EventBridge, SQS, SNS and API Gateway for high-volume transactional workloads.
+- **Agents that touch real systems.** n8n and LLM tool calling connected to tickets, pull requests and a project board, plus a customer-service agent grounded in real customer data.
+
+</details>
+
+<br />
+
+## `03` TOOLS
+
+```yaml
+frontend: [TypeScript, React, Next.js, Angular]
+backend:  [Node.js, NestJS, .NET / C#, GraphQL, REST]
+cloud:    [AWS (Lambda, EventBridge, SQS/SNS, API Gateway), Docker, Kubernetes]
+data:     [PostgreSQL, MongoDB, SQL Server, Oracle]
+agents:   [n8n, LLM tool calling, prompt engineering]
+```
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,angular,nodejs,nestjs,dotnet,graphql,aws,docker,kubernetes,postgres&perline=12&theme=dark" alt="TypeScript, React, Next.js, Angular, Node.js, NestJS, .NET, GraphQL, AWS, Docker, Kubernetes, PostgreSQL" />
+
+</div>
+
+<details>
+<summary><b>tools --all</b></summary>
+<br />
+
+**Languages:** TypeScript, JavaScript, C#, Java, Python
+**Frameworks:** NestJS, Express, React, Next.js, Angular, React Native, ASP.NET Core, Spring Boot
+**Cloud and DevOps:** AWS, Azure, GCP, Docker, Kubernetes, OpenShift, Jenkins, GitHub Actions, Terraform, Kafka
+**Data:** PostgreSQL, MongoDB, SQL Server, Oracle, Redis, Elasticsearch
+**Agents and AI:** n8n, LLM tool calling, prompt engineering, RAG, MCP, Claude Code, Cursor, GitHub Copilot
+**Practice:** event-driven architecture, microservices, DDD, Clean Architecture, TDD, Scrum, Kanban
+
+</details>
+
+<br />
+
+## `04` MEMORY
+
+<details open>
+<summary><b>Senior Fullstack Developer</b> · Arroyo Consulting · <code>Mar 2025 → now</code></summary>
+<br />
+
+Contributing to an enterprise Costpoint operations platform with an AI-first workflow: AI-assisted analysis to investigate workflow behavior, identify migration risks and guide improvements. **.NET 8 and React** over PostgreSQL, SQL Server and Oracle, with Azure AD and AWS services.
+
+</details>
+
+<details open>
+<summary><b>Team Lead / Lead Developer</b> · Solvex Dominicana · <code>Oct 2021 → Oct 2024</code></summary>
+<br />
+
+Joined as a full-stack engineer and grew into leading a team of **up to 12**: set technical direction, ran code reviews and defined engineering standards. Architected **event-driven microservices** in Node.js (Nest) on AWS (Lambda, EventBridge, SQS, SNS, API Gateway) for high-volume transactional workloads, and built marketplace and SaaS features with Next, Nest and .NET Core.
+
+</details>
+
+<details>
+<summary><b>Senior Software Engineer</b> · Perceny · <code>Dec 2024 → Apr 2025</code></summary>
+<br />
+
+REST and GraphQL APIs with NestJS powering multi-tenant SaaS products, built end to end across a Next / Nest / React Native stack.
+
+</details>
+
+<details>
+<summary><b>Freelance Software Developer</b> · Independent · <code>2019 → 2021</code></summary>
+<br />
+
+Short-term client projects across Java / Spring Boot, .NET / C#, JavaScript, React and Oracle PL/SQL backends.
+
+</details>
+
+<br />
+
+## `05` OUTPUT
+
+<div align="center">
+
+<a href="mailto:juandmatos0014@gmail.com"><img src="https://img.shields.io/badge/WRITE%20ME-EMAIL-FF5B1F?style=for-the-badge&labelColor=0E0F0C" alt="Email" /></a>
+<a href="https://linkedin.com/in/juan-david-matos-553a73204"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-EDE8DA?style=for-the-badge&labelColor=0E0F0C" alt="LinkedIn" /></a>
+
+<sub><a href="https://www.hackerrank.com/juand0014">HackerRank</a> · <a href="https://www.leetcode.com/juand0014">LeetCode</a> · juandmatos0014@gmail.com</sub>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&section=footer&color=0E0F0C&height=80&text=exit%200&fontColor=8C8878&fontSize=16" alt="exit 0" width="100%" />
+
+</div>
