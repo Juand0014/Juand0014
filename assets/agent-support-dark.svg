@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 480" width="840" height="480" role="img" aria-label="Support automation agent: an incoming request reaches the agent, which resolves the ticket, opens a pull request and updates the project board.">
+  <style>
+    
+    
+    :root { --bg:#0D1117; --surface:#161B22; --fg:#F0F3F6; --muted:#9DA7B3; --accent:#7AA2F7; --line:#2A3441; --node:#3D4B5C; --ok:#3FB950; }
+    
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif; fill: var(--fg); }
+    .card { fill: var(--bg); }
+    .eyebrow { fill: var(--accent); font-size: 20px; font-weight: 600; letter-spacing: 2.4px; }
+    .head { font-size: 30px; font-weight: 700; letter-spacing: -.3px; }
+    .sub { fill: var(--muted); font-size: 20px; }
+    .label { font-size: 24px; font-weight: 600; }
+    .state { font-size: 20px; fill: var(--ok); }
+    .wire { fill: none; stroke: var(--line); stroke-width: 2; }
+    .flow { fill: none; stroke: var(--accent); stroke-width: 2; stroke-opacity: .6; stroke-dasharray: 100 100; }
+    .node { fill: var(--node); }
+    .src { fill: var(--accent); }
+    .agent { fill: var(--accent); }
+    .halo, .ping { fill: none; stroke: var(--accent); stroke-width: 2; }
+    .halo { stroke-opacity: .35; }
+    .ping { opacity: 0; transform-box: fill-box; transform-origin: center; }
+    .ping.ok { stroke: var(--ok); }
+    .tok { fill: var(--accent); opacity: 0; }
+    .done { transform-box: fill-box; transform-origin: center; }
+    .done circle { fill: var(--ok); }
+    .done path { fill: none; stroke: var(--bg); stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* One 14 s loop shared by every animated element. The base styles above are the finished picture. */
+    .flow, .src, .ping, .tok, .done, .state { animation-duration: 14s; animation-iteration-count: infinite; animation-timing-function: linear; }
+    .flow { animation-name: draw, dim; }
+    .f0 { animation-name: f0, dim; } .f1 { animation-name: f1, dim; } .f2 { animation-name: f2, dim; } .f3 { animation-name: f3, dim; }
+    @keyframes dim { 0%, 6% { opacity: 1; animation-timing-function: ease-in-out; } 12%, 13.5% { opacity: 0; } 14%, 100% { opacity: 1; } }
+    @keyframes f0 { 0%, 12.5% { stroke-dashoffset: 0; } 13%, 17% { stroke-dashoffset: 100; animation-timing-function: cubic-bezier(.45,0,.2,1); } 27%, 100% { stroke-dashoffset: 0; } }
+    @keyframes f1 { 0%, 12.5% { stroke-dashoffset: 0; } 13%, 35% { stroke-dashoffset: 100; animation-timing-function: cubic-bezier(.45,0,.2,1); } 44%, 100% { stroke-dashoffset: 0; } }
+    @keyframes f2 { 0%, 12.5% { stroke-dashoffset: 0; } 13%, 46% { stroke-dashoffset: 100; animation-timing-function: cubic-bezier(.45,0,.2,1); } 55%, 100% { stroke-dashoffset: 0; } }
+    @keyframes f3 { 0%, 12.5% { stroke-dashoffset: 0; } 13%, 57% { stroke-dashoffset: 100; animation-timing-function: cubic-bezier(.45,0,.2,1); } 66%, 100% { stroke-dashoffset: 0; } }
+
+    .src { animation-name: src; }
+    @keyframes src { 0%, 6% { fill: var(--accent); animation-timing-function: ease-in-out; } 12%, 14% { fill: var(--node); } 16%, 100% { fill: var(--accent); } }
+
+    .t0 { animation-name: t0; } .t1 { animation-name: t1; } .t2 { animation-name: t2; } .t3 { animation-name: t3; }
+    @keyframes t0 { 0%, 16% { transform: translate(55px,312px); opacity: 0; } 17% { transform: translate(55px,312px); opacity: 1; animation-timing-function: cubic-bezier(.45,0,.2,1); } 27% { transform: translate(370px,312px); opacity: 1; } 28%, 100% { transform: translate(370px,312px); opacity: 0; } }
+    @keyframes t1 { 0%, 34% { transform: translate(370px,312px); opacity: 0; } 35% { transform: translate(370px,312px); opacity: 1; animation-timing-function: cubic-bezier(.45,0,.2,1); } 44%, 46% { transform: translate(552px,224px); opacity: 1; } 47%, 100% { transform: translate(552px,224px); opacity: 0; } }
+    @keyframes t2 { 0%, 45% { transform: translate(370px,312px); opacity: 0; } 46% { transform: translate(370px,312px); opacity: 1; animation-timing-function: cubic-bezier(.45,0,.2,1); } 55%, 57% { transform: translate(552px,312px); opacity: 1; } 58%, 100% { transform: translate(552px,312px); opacity: 0; } }
+    @keyframes t3 { 0%, 56% { transform: translate(370px,312px); opacity: 0; } 57% { transform: translate(370px,312px); opacity: 1; animation-timing-function: cubic-bezier(.45,0,.2,1); } 66%, 68% { transform: translate(552px,400px); opacity: 1; } 69%, 100% { transform: translate(552px,400px); opacity: 0; } }
+
+    .d1 { animation-name: d1; } .d2 { animation-name: d2; } .d3 { animation-name: d3; }
+    @keyframes d1 { 0%, 6% { opacity: 1; transform: scale(1); } 12% { opacity: 0; transform: scale(1); } 13%, 44% { opacity: 0; transform: scale(.4); animation-timing-function: cubic-bezier(.2,.7,.2,1); } 47.5%, 100% { opacity: 1; transform: scale(1); } }
+    @keyframes d2 { 0%, 6% { opacity: 1; transform: scale(1); } 12% { opacity: 0; transform: scale(1); } 13%, 55% { opacity: 0; transform: scale(.4); animation-timing-function: cubic-bezier(.2,.7,.2,1); } 58.5%, 100% { opacity: 1; transform: scale(1); } }
+    @keyframes d3 { 0%, 6% { opacity: 1; transform: scale(1); } 12% { opacity: 0; transform: scale(1); } 13%, 66% { opacity: 0; transform: scale(.4); animation-timing-function: cubic-bezier(.2,.7,.2,1); } 69.5%, 100% { opacity: 1; transform: scale(1); } }
+
+    .s1 { animation-name: s1; } .s2 { animation-name: s2; } .s3 { animation-name: s3; }
+    @keyframes s1 { 0%, 6% { fill: var(--ok); } 12%, 44% { fill: var(--muted); } 47.5%, 100% { fill: var(--ok); } }
+    @keyframes s2 { 0%, 6% { fill: var(--ok); } 12%, 55% { fill: var(--muted); } 58.5%, 100% { fill: var(--ok); } }
+    @keyframes s3 { 0%, 6% { fill: var(--ok); } 12%, 66% { fill: var(--muted); } 69.5%, 100% { fill: var(--ok); } }
+
+    .p0 { animation-name: p0; } .pa { animation-name: pa; } .p1 { animation-name: p1; } .p2 { animation-name: p2; } .p3 { animation-name: p3; }
+    @keyframes p0 { 0%, 14% { opacity: 0; transform: scale(1); } 15% { opacity: .7; transform: scale(1); animation-timing-function: ease-out; } 22%, 100% { opacity: 0; transform: scale(2.6); } }
+    @keyframes pa { 0%, 27% { opacity: 0; transform: scale(1); } 28% { opacity: .6; transform: scale(1); animation-timing-function: ease-out; } 36%, 100% { opacity: 0; transform: scale(1.7); } }
+    @keyframes p1 { 0%, 44% { opacity: 0; transform: scale(1); } 45% { opacity: .6; transform: scale(1); animation-timing-function: ease-out; } 52%, 100% { opacity: 0; transform: scale(1.9); } }
+    @keyframes p2 { 0%, 55% { opacity: 0; transform: scale(1); } 56% { opacity: .6; transform: scale(1); animation-timing-function: ease-out; } 63%, 100% { opacity: 0; transform: scale(1.9); } }
+    @keyframes p3 { 0%, 66% { opacity: 0; transform: scale(1); } 67% { opacity: .6; transform: scale(1); animation-timing-function: ease-out; } 74%, 100% { opacity: 0; transform: scale(1.9); } }
+
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+
+  <rect class="card" width="840" height="480" rx="16"/>
+
+  <text class="eyebrow" x="48" y="62">SUPPORT AUTOMATION AGENT</text>
+  <text class="head" x="48" y="102">Understands a request, then acts on it.</text>
+  <text class="sub" x="48" y="134">Built for a client with n8n and LLM tool calling.</text>
+
+  <!-- the map: quiet wires, then the same wires in accent where work has flowed -->
+  <path class="wire" d="M55 312H552M370 312L552 224M370 312L552 400"/>
+  <path class="flow f0" pathLength="100" d="M55 312H370"/>
+  <path class="flow f1" pathLength="100" d="M370 312L552 224"/>
+  <path class="flow f2" pathLength="100" d="M370 312H552"/>
+  <path class="flow f3" pathLength="100" d="M370 312L552 400"/>
+
+  <!-- quiet nodes -->
+  <circle class="ping p0" cx="55" cy="312" r="7"/>
+  <circle class="node src" cx="55" cy="312" r="7"/>
+  <circle class="node" cx="552" cy="224" r="7"/>
+  <circle class="node" cx="552" cy="312" r="7"/>
+  <circle class="node" cx="552" cy="400" r="7"/>
+
+  <!-- tokens -->
+  <circle class="tok t0" r="6"/>
+  <circle class="tok t1" r="6"/>
+  <circle class="tok t2" r="6"/>
+  <circle class="tok t3" r="6"/>
+
+  <!-- the agent: the accent node with the halo -->
+  <circle class="ping pa" cx="370" cy="312" r="24"/>
+  <circle class="halo" cx="370" cy="312" r="24"/>
+  <circle class="agent" cx="370" cy="312" r="12"/>
+
+  <!-- outcomes: a check lands when the token arrives -->
+  <g transform="translate(552 224)"><circle class="ping ok p1" r="13"/><g class="done d1"><circle r="13"/><path d="M-5.5 .5l4 4 7-8"/></g></g>
+  <g transform="translate(552 312)"><circle class="ping ok p2" r="13"/><g class="done d2"><circle r="13"/><path d="M-5.5 .5l4 4 7-8"/></g></g>
+  <g transform="translate(552 400)"><circle class="ping ok p3" r="13"/><g class="done d3"><circle r="13"/><path d="M-5.5 .5l4 4 7-8"/></g></g>
+
+  <text class="label" x="48" y="274">Incoming request</text>
+  <text class="label" x="370" y="274" text-anchor="middle">Agent</text>
+
+  <text class="label" x="582" y="217">Ticket</text>
+  <text class="state s1" x="582" y="243">resolved</text>
+  <text class="label" x="582" y="305">Pull request</text>
+  <text class="state s2" x="582" y="331">opened</text>
+  <text class="label" x="582" y="393">Project board</text>
+  <text class="state s3" x="582" y="419">updated</text>
+</svg>

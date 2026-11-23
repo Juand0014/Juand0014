@@ -28,40 +28,44 @@ I'm a senior software engineer and tech lead with 6+ years shipping production s
 
 <br />
 
+### Agents I've built
+
+Two AI agents I built. Each picture follows one request from start to finish.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-support-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/agent-support-light.svg" />
+  <img src="./assets/agent-support-light.svg" alt="Support automation agent: an incoming request reaches the agent, which resolves the ticket, opens a pull request and updates the project board." width="100%" />
+</picture>
+
+**Support automation agent.** Built for a client with n8n and LLM tool calling. It understands an incoming request, resolves the support ticket, opens a pull request and updates the project board, so routine engineering tasks need less manual handling.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-customer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/agent-customer-light.svg" />
+  <img src="./assets/agent-customer-light.svg" alt="Customer service agent: a customer message reaches the agent, which reads customer data, calls its tools and returns a reply grounded in that data." width="100%" />
+</picture>
+
+**Customer service agent.** An LLM agent that answers from real customer data and context instead of guessing. It connects the model to the right data sources and tools, and handles customer data securely.
+
+<br />
+
 ### What I build
 
 <table>
   <tr>
-    <td valign="top" width="50%">
-      <b>Self-healing CI loop</b><br />
-      <sub>GitHub Actions · Claude Agent SDK</sub><br /><br />
-      When a build fails, an agent reproduces the error, proposes a patch, runs the suite and opens a PR. A human always approves the merge. Isolated branches, cost limits and a decision log as guardrails.
-    </td>
-    <td valign="top" width="50%">
-      <b>PR review agent with evals</b><br />
-      <sub>MCP · LangGraph · FastAPI</sub><br /><br />
-      An MCP server exposes pull requests and builds to agents. The review agent is a LangGraph graph served through FastAPI and measured against an eval set for precision and cost.
-    </td>
+    <td valign="top" width="28%"><b>Self-healing CI loop</b><br /><sub>GitHub Actions · Claude Agent SDK</sub></td>
+    <td valign="top">When a build fails, an agent reproduces the error, proposes a patch, runs the suite and opens a PR. A human always approves the merge. Isolated branches, cost limits and a decision log as guardrails.</td>
   </tr>
   <tr>
-    <td valign="top" width="50%">
-      <b>Developer platform starter</b><br />
-      <sub>GitHub Actions · Kubernetes · GCP</sub><br /><br />
-      A reusable template with quality and security gates, OpenTelemetry tracing, Helm and Cloud Run deploys, and a DORA metrics dashboard built from the GitHub API.
-    </td>
-    <td valign="top" width="50%">
-      <b>Support automation agent</b><br />
-      <sub>n8n · LLM tool calling</sub><br /><br />
-      Built for a client: it triages incoming requests, resolves support tickets, opens pull requests and updates the project board.
-    </td>
+    <td valign="top"><b>PR review agent with evals</b><br /><sub>MCP · LangGraph · FastAPI</sub></td>
+    <td valign="top">An MCP server exposes pull requests and builds to agents. The review agent is a LangGraph graph served through FastAPI and measured against an eval set for precision and cost.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Developer platform starter</b><br /><sub>GitHub Actions · Kubernetes · GCP</sub></td>
+    <td valign="top">A reusable template with quality and security gates, OpenTelemetry tracing, Helm and Cloud Run deploys, and a DORA metrics dashboard built from the GitHub API.</td>
   </tr>
 </table>
-
-```mermaid
-flowchart LR
-    F(["CI build fails"]) --> A{{"Fix agent"}}
-    A --> R["Reproduce"] --> P["Patch"] --> T["Run tests"] --> PR["Open PR"] --> H(["Human approves"])
-```
 
 <br />
 
