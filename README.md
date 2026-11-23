@@ -1,156 +1,132 @@
-<!-- Reading the raw markdown? You review PRs properly. Email subject line: raw. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
+  <img src="./assets/header-light.svg" alt="Juan David Matos, Senior Software Engineer and Tech Lead. Developer experience and agentic engineering." width="100%" />
+</picture>
 
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&section=header&color=0E0F0C&height=190&text=JUAN%20DAVID%20MATOS&fontColor=EDE8DA&fontSize=52&fontAlignY=42&desc=Full-stack%20engineer.%20Led%2012.%20Now%20building%20agents%20that%20open%20pull%20requests.&descColor=FF5B1F&descSize=18&descAlignY=66&animation=fadeIn" alt="Juan David Matos. Full-stack engineer. Led 12. Now building agents that open pull requests." width="100%" />
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=2200&pause=500&color=EDE8DA&background=0E0F0C&width=720&height=130&multiline=true&repeat=false&vCenter=true&lines=%E2%80%BA+role++++full+stack%2C+6%2B+years;%E2%80%BA+stack+++NestJS+%C2%B7+React%2FNext+%C2%B7+.NET+%C2%B7+AWS;%E2%80%BA+now+++++agents%3A+ticket+%E2%86%92+PR+%E2%86%92+board;%E2%80%BA+led+++++up+to+12+engineers" alt="role: full stack, 6+ years. stack: NestJS, React/Next, .NET, AWS. now: agents, ticket to PR to board. led: up to 12 engineers." />
-
-<br />
-
-<a href="mailto:juandmatos0014@gmail.com"><img src="https://img.shields.io/badge/WRITE%20ME-EMAIL-FF5B1F?style=for-the-badge&labelColor=0E0F0C" alt="Email" /></a>
-<a href="https://linkedin.com/in/juan-david-matos-553a73204"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-EDE8DA?style=for-the-badge&labelColor=0E0F0C" alt="LinkedIn" /></a>
-<a href="https://wa.me/18299357237?text=Hi%20Juan%2C%20I%20saw%20your%20GitHub%20profile"><img src="https://img.shields.io/badge/MESSAGE%20ME-WHATSAPP-25D366?style=for-the-badge&labelColor=0E0F0C&logo=whatsapp&logoColor=25D366" alt="Message me on WhatsApp" /></a>
-<img src="https://img.shields.io/badge/OPEN%20TO-REMOTE%20ROLES-8CFF7A?style=for-the-badge&labelColor=0E0F0C" alt="Open to remote roles" />
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/juan-david-matos-553a73204"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:juandmatos0014@gmail.com"><img src="https://img.shields.io/badge/Email-juandmatos0014%40gmail.com-3B5BDB?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://wa.me/18299357237"><img src="https://img.shields.io/badge/WhatsApp-%2B1%20829%20935%207237-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <img src="https://img.shields.io/badge/Open%20to-remote%20senior%20%2F%20staff%20roles-2DA44E?style=flat-square" alt="Open to remote senior and staff roles" />
+</p>
 
 <br />
 
-## `01` TASK
+### About
 
-> [!TIP]
-> **Open to remote senior full-stack / AI-agent engineering roles.**
-> Santo Domingo, Dominican Republic (UTC-4 all year, no daylight saving). English C1, Spanish native.
+I'm a senior software engineer and tech lead with 6+ years shipping production systems on **TypeScript, Node.js, NestJS, .NET and AWS**. I led a team of up to 12 engineers for about 2.5 years. Today I build for other developers: agent loops that fix failing builds, run tests and open pull requests, shared agent workflows a whole team uses every day, and a path to production with quality gates, observability and DORA metrics.
 
-I'm a senior full-stack engineer with 6+ years shipping production systems on **NestJS, React / Next.js, .NET and AWS**. I led a team of up to 12 engineers for about 2.5 years, and now I build AI agents that plug into real engineering workflows.
-
-<div align="center">
-
-<a href="mailto:juandmatos0014@gmail.com"><kbd>&nbsp;⏎&nbsp; run: hire Juan&nbsp;</kbd></a>
-
-</div>
-
-<br />
-
-## `02` PLAN
-
-*What I'm building now.* A support agent that works the ticket queue on its own:
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A1B17','primaryTextColor':'#EDE8DA','primaryBorderColor':'#FF5B1F','lineColor':'#FF5B1F','secondaryColor':'#1A1B17','tertiaryColor':'#0E0F0C','fontFamily':'trebuchet ms, verdana, arial, sans-serif'}}}%%
-flowchart LR
-    T(["Support ticket"]) --> A{{"n8n agent<br/>LLM + tools"}}
-    A --> R["Resolves the ticket"]
-    A --> P["Opens a pull request"]
-    A --> B["Updates the project board"]
-    classDef hot fill:#FF5B1F,stroke:#FF5B1F,color:#0E0F0C;
-    class A hot;
-```
-
-And a customer-service agent that answers from real customer data and context instead of guessing:
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1A1B17','primaryTextColor':'#EDE8DA','primaryBorderColor':'#FF5B1F','lineColor':'#FF5B1F','secondaryColor':'#1A1B17','tertiaryColor':'#0E0F0C','fontFamily':'trebuchet ms, verdana, arial, sans-serif'}}}%%
-flowchart LR
-    M(["Customer message"]) --> C{{"Customer-service agent"}}
-    D[("Customer data<br/>+ context")] --> C
-    C --> G["Grounded reply"]
-    classDef hot fill:#FF5B1F,stroke:#FF5B1F,color:#0E0F0C;
-    class C hot;
-```
-
-Next on the bench: RAG, MCP and multi-agent orchestration.
-
-<details>
-<summary><b>Ask me about…</b></summary>
-<br />
-
-- **Leading 12 engineers.** Technical direction, code reviews, engineering standards, mentoring, and working closely with Product (about 2.5 years at Solvex Dominicana).
-- **Event-driven microservices on AWS.** Node.js (Nest) on Lambda, EventBridge, SQS, SNS and API Gateway for high-volume transactional workloads.
-- **Agents that touch real systems.** n8n and LLM tool calling connected to tickets, pull requests and a project board, plus a customer-service agent grounded in real customer data.
-
-</details>
+<table>
+  <tr>
+    <td align="center" width="25%"><h3>6+</h3><sub>years in production</sub></td>
+    <td align="center" width="25%"><h3>12</h3><sub>engineers led</sub></td>
+    <td align="center" width="25%"><h3>470+</h3><sub>tests in my current suite</sub></td>
+    <td align="center" width="25%"><h3>AWS</h3><sub>Certified Cloud Practitioner</sub></td>
+  </tr>
+</table>
 
 <br />
 
-## `03` TOOLS
+### Agents I've built
 
-```yaml
-frontend: [TypeScript, React, Next.js, Angular]
-backend:  [Node.js, NestJS, .NET / C#, GraphQL, REST]
-cloud:    [AWS (Lambda, EventBridge, SQS/SNS, API Gateway), Docker, Kubernetes]
-data:     [PostgreSQL, MongoDB, SQL Server, Oracle]
-agents:   [n8n, LLM tool calling, prompt engineering]
-```
+Two AI agents I built. Each picture follows one request from start to finish.
 
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-support-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/agent-support-light.svg" />
+  <img src="./assets/agent-support-light.svg" alt="Support automation agent: an incoming request reaches the agent, which resolves the ticket, opens a pull request and updates the project board." width="100%" />
+</picture>
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,angular,nodejs,nestjs,dotnet,graphql,aws,docker,kubernetes,postgres&perline=12&theme=dark" alt="TypeScript, React, Next.js, Angular, Node.js, NestJS, .NET, GraphQL, AWS, Docker, Kubernetes, PostgreSQL" />
+**Support automation agent.** Built for a client with n8n and LLM tool calling. It understands an incoming request, resolves the support ticket, opens a pull request and updates the project board, so routine engineering tasks need less manual handling.
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/agent-customer-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/agent-customer-light.svg" />
+  <img src="./assets/agent-customer-light.svg" alt="Customer service agent: a customer message reaches the agent, which reads customer data, calls its tools and returns a reply grounded in that data." width="100%" />
+</picture>
 
-<details>
-<summary><b>tools --all</b></summary>
-<br />
-
-**Languages:** TypeScript, JavaScript, C#, Java, Python
-**Frameworks:** NestJS, Express, React, Next.js, Angular, React Native, ASP.NET Core, Spring Boot
-**Cloud and DevOps:** AWS, Azure, GCP, Docker, Kubernetes, OpenShift, Jenkins, GitHub Actions, Terraform, Kafka
-**Data:** PostgreSQL, MongoDB, SQL Server, Oracle, Redis, Elasticsearch
-**Agents and AI:** n8n, LLM tool calling, prompt engineering, RAG, MCP, Claude Code, Cursor, GitHub Copilot
-**Practice:** event-driven architecture, microservices, DDD, Clean Architecture, TDD, Scrum, Kanban
-
-</details>
+**Customer service agent.** An LLM agent that answers from real customer data and context instead of guessing. It connects the model to the right data sources and tools, and handles customer data securely.
 
 <br />
 
-## `04` MEMORY
+### What I build
 
-<details open>
-<summary><b>Senior Fullstack Developer</b> · Arroyo Consulting · <code>Mar 2025 → now</code></summary>
-<br />
-
-Contributing to an enterprise Costpoint operations platform with an AI-first workflow: AI-assisted analysis to investigate workflow behavior, identify migration risks and guide improvements. **.NET 8 and React** over PostgreSQL, SQL Server and Oracle, with Azure AD and AWS services.
-
-</details>
-
-<details open>
-<summary><b>Team Lead / Lead Developer</b> · Solvex Dominicana · <code>Oct 2021 → Oct 2024</code></summary>
-<br />
-
-Joined as a full-stack engineer and grew into leading a team of **up to 12**: set technical direction, ran code reviews and defined engineering standards. Architected **event-driven microservices** in Node.js (Nest) on AWS (Lambda, EventBridge, SQS, SNS, API Gateway) for high-volume transactional workloads, and built marketplace and SaaS features with Next, Nest and .NET Core.
-
-</details>
-
-<details>
-<summary><b>Senior Software Engineer</b> · Perceny · <code>Dec 2024 → Apr 2025</code></summary>
-<br />
-
-REST and GraphQL APIs with NestJS powering multi-tenant SaaS products, built end to end across a Next / Nest / React Native stack.
-
-</details>
-
-<details>
-<summary><b>Freelance Software Developer</b> · Independent · <code>2019 → 2021</code></summary>
-<br />
-
-Short-term client projects across Java / Spring Boot, .NET / C#, JavaScript, React and Oracle PL/SQL backends.
-
-</details>
+<table>
+  <tr>
+    <td valign="top" width="28%"><b>Self-healing CI loop</b><br /><sub>GitHub Actions · Claude Agent SDK</sub></td>
+    <td valign="top">When a build fails, an agent reproduces the error, proposes a patch, runs the suite and opens a PR. A human always approves the merge. Isolated branches, cost limits and a decision log as guardrails.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>PR review agent with evals</b><br /><sub>MCP · LangGraph · FastAPI</sub></td>
+    <td valign="top">An MCP server exposes pull requests and builds to agents. The review agent is a LangGraph graph served through FastAPI and measured against an eval set for precision and cost.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Developer platform starter</b><br /><sub>GitHub Actions · Kubernetes · GCP</sub></td>
+    <td valign="top">A reusable template with quality and security gates, OpenTelemetry tracing, Helm and Cloud Run deploys, and a DORA metrics dashboard built from the GitHub API.</td>
+  </tr>
+</table>
 
 <br />
 
-## `05` OUTPUT
+### Stack
 
-<div align="center">
+<table>
+  <tr>
+    <td width="22%"><b>Agents</b></td>
+    <td>Claude Agent SDK · MCP · LangGraph · Google ADK · tool calling · evals · Claude Code · n8n</td>
+  </tr>
+  <tr>
+    <td><b>Developer experience</b></td>
+    <td>GitHub Actions · Azure DevOps · CodeQL · SonarQube · gitleaks · OpenTelemetry · SLOs · DORA / SPACE</td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>TypeScript · Node.js · NestJS · Fastify · Python · FastAPI · .NET / C# · GraphQL · REST</td>
+  </tr>
+  <tr>
+    <td><b>Cloud</b></td>
+    <td>AWS (Lambda, API Gateway, SQS, SNS, EventBridge) · GCP (Cloud Run) · Azure · Docker · Kubernetes · Helm · Terraform</td>
+  </tr>
+  <tr>
+    <td><b>Data</b></td>
+    <td>PostgreSQL · SQL Server · MongoDB · Redis · Elasticsearch · DynamoDB</td>
+  </tr>
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>React · Next.js · Angular · Blazor</td>
+  </tr>
+</table>
 
-<a href="mailto:juandmatos0014@gmail.com"><img src="https://img.shields.io/badge/WRITE%20ME-EMAIL-FF5B1F?style=for-the-badge&labelColor=0E0F0C" alt="Email" /></a>
-<a href="https://linkedin.com/in/juan-david-matos-553a73204"><img src="https://img.shields.io/badge/CONNECT-LINKEDIN-EDE8DA?style=for-the-badge&labelColor=0E0F0C" alt="LinkedIn" /></a>
-<a href="https://wa.me/18299357237?text=Hi%20Juan%2C%20I%20saw%20your%20GitHub%20profile"><img src="https://img.shields.io/badge/MESSAGE%20ME-WHATSAPP-25D366?style=for-the-badge&labelColor=0E0F0C&logo=whatsapp&logoColor=25D366" alt="Message me on WhatsApp" /></a>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,py,nodejs,nestjs,fastapi,dotnet,react,aws,gcp,azure,docker,kubernetes,terraform,githubactions,postgres&perline=15" alt="TypeScript, Python, Node.js, NestJS, FastAPI, .NET, React, AWS, GCP, Azure, Docker, Kubernetes, Terraform, GitHub Actions, PostgreSQL" />
+</p>
 
-<sub><a href="https://wa.me/18299357237">WhatsApp +1 829 935 7237</a> · <a href="https://www.hackerrank.com/juand0014">HackerRank</a> · <a href="https://www.leetcode.com/juand0014">LeetCode</a> · juandmatos0014@gmail.com</sub>
+<br />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&section=footer&color=0E0F0C&height=80&text=exit%200&fontColor=8C8878&fontSize=16" alt="exit 0" width="100%" />
+### Experience
 
-</div>
+<table>
+  <tr>
+    <td valign="top" width="28%"><b>Arroyo Consulting</b><br /><sub>Mar 2025 – now</sub></td>
+    <td valign="top"><b>Senior Software Engineer · Tech Lead</b><br />Tech lead of an internal enterprise platform and owner of its path to production on Azure. Designed the AI-assisted workflow the team uses daily: shared Claude Code agents for code review and architecture compliance, backed by a 470+ test suite. AWS microservices with Lambda and API Gateway.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Perceny</b><br /><sub>Dec 2024 – Apr 2025</sub></td>
+    <td valign="top"><b>Senior Software Engineer</b><br />REST and GraphQL APIs with NestJS for multi-tenant SaaS products, end to end across Next.js and Node.js.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Solvex Dominicana</b><br /><sub>Oct 2021 – Oct 2024</sub></td>
+    <td valign="top"><b>Team Lead / Lead Developer</b><br />Promoted to lead a team of up to 12: technical direction, code reviews and engineering standards. Event-driven microservices in NestJS on AWS (Lambda, EventBridge, SQS, SNS, API Gateway) for high-volume transactional workloads.</td>
+  </tr>
+  <tr>
+    <td valign="top"><b>Independent</b><br /><sub>2019 – 2021</sub></td>
+    <td valign="top"><b>Freelance Software Developer</b><br />Client projects in Java / Spring Boot, Oracle PL/SQL, React and Node.js, with Jenkins pipelines to OpenShift.</td>
+  </tr>
+</table>
+
+<br />
+
+<p align="center">
+  <sub>Let's talk: <a href="mailto:juandmatos0014@gmail.com">juandmatos0014@gmail.com</a> · <a href="https://linkedin.com/in/juan-david-matos-553a73204">LinkedIn</a> · <a href="https://www.hackerrank.com/juand0014">HackerRank</a> · <a href="https://www.leetcode.com/juand0014">LeetCode</a></sub>
+</p>
