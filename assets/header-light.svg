@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Juan David Matos, Senior Software Engineer and Tech Lead">
+  <rect width="1200" height="300" rx="16" fill="#F6F8FA"/>
+  <g stroke="#D0D7DE" stroke-width="1.2" fill="none">
+    <path d="M760 70 L900 120 L1050 80 M900 120 L960 210 L1100 190 M760 70 L820 200 L960 210 M1050 80 L1100 190"/>
+  </g>
+  <g fill="#AFB8C1">
+    <circle cx="760" cy="70" r="5"/><circle cx="1050" cy="80" r="5"/><circle cx="820" cy="200" r="5"/><circle cx="1100" cy="190" r="5"/><circle cx="960" cy="210" r="5"/>
+  </g>
+  <circle cx="900" cy="120" r="9" fill="#3B5BDB"/>
+  <circle cx="900" cy="120" r="18" fill="none" stroke="#3B5BDB" stroke-opacity=".35" stroke-width="2"/>
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="64" y="92" fill="#3B5BDB" font-size="15" font-weight="600" letter-spacing="3">SENIOR SOFTWARE ENGINEER · TECH LEAD</text>
+    <text x="64" y="158" fill="#1F2328" font-size="56" font-weight="700" letter-spacing="-1">Juan David Matos</text>
+    <text x="64" y="202" fill="#57606A" font-size="20">Developer experience and agentic engineering.</text>
+    <text x="64" y="232" fill="#57606A" font-size="20">I build the agents and tools that help engineers ship.</text>
+    <text x="64" y="268" fill="#57606A" font-size="14" opacity=".8">Santo Domingo, DR  ·  Remote  ·  UTC-4  ·  English C1</text>
+  </g>
+</svg>
